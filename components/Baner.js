@@ -13,9 +13,9 @@ const Baner = () => {
                 <p className="text-2xl lg:text-4xl text-white font-serif font-normal"><strong className="font-semibold">Notary Public &</strong> <br /> Legal Solutions</p>
                 <p className="text-md text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis cupiditate deserunt placeat necessitatibus a aliquam corrupti nisi odio aliquid, accusamus.</p>
             </div>
-            <div className="flex flex-col col-span-12 lg:col-span-4 mx-auto space-y-3 bg-white rounded-md shadow-sm shadow-gray-200 pt-3 py-6 w-4/5">
-                <h4 className="text-md text-gray-600 mt-4 font-serif justify-self-start">Book an Appointment</h4>
-                <form action="" className="flex flex-col w-4/5 mx-auto p-2">
+            <div className="flex flex-col col-span-12 lg:col-span-4 mx-auto space-y-3 bg-white rounded-md shadow-sm shadow-gray-200 pt-1 lg:pt-3 py-3 lg:py-6 w-4/5">
+                <h4 className="text-md text-gray-600 mt-2 lg:mt-4 font-serif justify-self-start">Book an Appointment</h4>
+                <form action="" className="flex flex-col w-4/5 mx-auto p-1 lg:p-2">
                     <input type="text" name="" id="" className="form-input" placeholder="Name" />
                     <input type="text" name="" id="" className="form-input" placeholder="Email" />
                     <input type="date" name="" id="" className="form-input" placeholder="Date" />
