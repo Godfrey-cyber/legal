@@ -1,16 +1,45 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
+@layer components {
+  .nav-links {
+    @apply text-gray-600 hover:text-gray-800 transition delay-200 hover:cursor-pointer;
+  }
+  .form-input {
+    @apply p-3 h-12 my-3 border border-gray-400 rounded-sm text-gray-600 focus:outline-none placeholder:text-gray-600
+  }
+  .component {
+    @apply w-screen px-8 lg:px-24 h-auto py-16 bg-white
+  }
+  .component-span {
+    @apply flex flex-col justify-center items-center my-10 mx-auto
+  }
+  .c-title {
+    @apply text-gray-700 text-center font-serif text-3xl font-semibold mt-8
+  }
+  .c-text {
+    @apply text-gray-800 text-center text-sm font-normal mb-8
+  }
+  .practice-card {
+    @apply col-span-12 md:col-span-6 lg:col-span-4 hover:bg-orange-100 hover:cursor-pointer bg-white shadow-md shadow-gray-300 p-8 rounded-md transition-all delay-200
+  }
+  .practice-t {
+    @apply text-xl font-semibold font-serif text-gray-900 pt-3 transition-all delay-200
+  }
+  .practice-p {
+    @apply text-sm text-gray-700
+  }
+  .practice-icon {
+    @apply text-3xl hover:cursor-pointer transition-all delay-200 text-orange-400
+  }
+  .customer-card {
+    @apply col-span-12 lg:col-span-4 flex-col flex bg-white shadow-md shadow-gray-300 rounded-md p-6 px-6
+  }
+  .footer-icon {
+    @apply h-8 text-2xl text-orange-300 hover:cursor-pointer hover:text-orange-500 transition-all delay-200
+  }
+  .contact-input {
+    @apply col-span-12 lg:col-span-6 lg:space-y-3 flex focus:outline-none focus:border-orange-200 text-sm text-gray-500 border border-gray-300 h-12 p-4
+  }
 }
