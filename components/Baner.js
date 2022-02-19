@@ -4,7 +4,7 @@ import Image1 from "../public/images/cottage.jpg"
 
 const Baner = () => {
   return (
-    <div className="flex flex-col w-screen h-screen lg:h-screen relative overflow-x-hidden">
+    <div className="flex flex-col w-screen h-[600px] md:h-screen relative overflow-x-hidden">
         <div className="flex flex-col relative top-0 left-0 h-full w-full">
             <Image className="" src={Image1} layout="fill" objectfit="contain" />
         </div>
