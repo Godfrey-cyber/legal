@@ -6,7 +6,7 @@ import { AiOutlineBars } from 'react-icons/ai'
 const Header = () => {
     const router = useRouter()
   return (
-    <div className="flex items-center justify-between w-screen top-0 sticky z-50 py-5 bg-orange-200 px-6 lg:px-24">
+    <div className="flex items-center justify-between w-screen top-0 sticky z-50 py-2 lg:py-5 bg-orange-200 px-6 lg:px-24">
         <div onClick={() => router.push("/")} className="flex space-x-2 hover:cursor-pointer">
             <VscLaw className="practice-icon"/>
             <h3 className="text-gray-800 text-3xl font-semibold">Legal</h3>
